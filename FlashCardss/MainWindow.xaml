@@ -1,0 +1,203 @@
+﻿<Window x:Class="FlashCardss.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlashCardss"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="Height" Width="800" Background="LightCyan">
+    <Window.Resources>
+        <Style x:Key="buttonScreenTwo" TargetType="Button">
+            <Setter Property="Background" Value="#4A90E2 "/>
+            <Setter Property="Foreground" Value="#111827"/>
+            <Setter Property="BorderBrush" Value="#FFC8CCD2"/>
+            <Setter Property="FontFamily" Value="Verdana"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="80"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Margin" Value="5,0,0,0"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect 
+                        ShadowDepth="5" 
+                        Direction="270"
+                        Color="#0a8ea9"
+                        BlurRadius="5"
+                        Opacity="0.9"/>
+
+                </Setter.Value>
+
+            </Setter>
+
+
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="12">
+
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#2563EB"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#FF22262F"/>
+                    <Setter Property="BorderBrush" Value="#FFE81515"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="73*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+
+        <Border Grid.Row="0"
+            BorderBrush="Transparent" 
+            Background="#109DB9"
+            BorderThickness="2" 
+            Margin="0,3,0,3"
+            CornerRadius="12" Grid.ColumnSpan="2">
+
+            <Border.Effect>
+                <DropShadowEffect ShadowDepth="5"
+                                  Direction="270"
+                                  Color="#000000"
+                                  BlurRadius="10"
+                                  Opacity="0.2"/>
+            </Border.Effect>
+
+            <StackPanel>
+                <Border BorderThickness="5,5,5,0" 
+                        Background="#10B981" 
+                        Margin="11,10,11,0" Height="100"  
+                        CornerRadius="10,10,0,0">
+                    <Border.BorderBrush>
+                        <VisualBrush Stretch="Fill">
+                            <VisualBrush.Visual>
+                                <Rectangle HorizontalAlignment="Left" 
+                                           Height="100" 
+                                           Stroke="#047857" VerticalAlignment="Top" 
+                                           Width="768"
+                                           StrokeThickness="5" StrokeDashArray="4 1" 
+                                           Fill="#10B981"  />
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </Border.BorderBrush>
+                    <TextBlock 
+                        Margin="5,0,0,0"
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Center" 
+                        FontSize="16" 
+                        Foreground="#1F2937"  
+                        Width="700" 
+                        Height="85"
+                        TextWrapping="Wrap"
+                        Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac lobortis mauris, eu volutpat odio. Phasellus ante nibh, pulvinar eget tempor in, tincidunt eget ex. Vestibulum vel iaculis mi. Quisque mattis at lorem ac imperdiet. In tempus pharetra dapibus. Nunc non augue lectus. In hac habitasse platea dictumst. Quisque nec velit ut lectus finibus efficitur. Cras eget velit pretium odio ullamcorper pretium ut sed est. Curabitur vel porttitor tortor. Mauris est sem, tincidunt ut dictum eget, ornare id enim. Pellentesque vitae turpis vel leo efficitur mattis eget et nunc." FontFamily="Segoe UI Black" />
+
+
+
+
+
+
+
+
+
+                </Border>
+                <Border BorderThickness="5,0,5,5" 
+                        Background="#10B981"  
+                        Margin="11,10,11,10" Height="100" 
+                        CornerRadius="0,0,10,10">
+                    <Border.BorderBrush>
+                        <VisualBrush >
+                            <VisualBrush.Visual>
+                                <Rectangle HorizontalAlignment="Left" 
+                                           Height="{Binding RelativeSource={RelativeSource AncestorType={x:Type Border}}, Path=ActualHeight}"
+                                           Stroke="#047857" VerticalAlignment="Top" 
+                                           StrokeThickness="5"
+                                           StrokeDashArray="4 1" Fill="#10B981"
+                                           RadiusX="10" RadiusY="10"
+                                           Width="{Binding RelativeSource={RelativeSource AncestorType={x:Type Border}}, Path=ActualWidth}"
+                                         />
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </Border.BorderBrush>
+                    <TextBlock 
+                        Margin="5,0,0,0"
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Center" 
+                        FontSize="16" 
+                        FontWeight="SemiBold" 
+                        Foreground="#1F2937"  
+                        Width="700" 
+                        Height="85"
+                        TextWrapping="Wrap"
+                        Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac lobortis mauris, 
+                        eu volutpat odio. Phasellus ante nibh, pulvinar eget tempor in, tincidunt eget ex. 
+                        Vestibulum vel iaculis mi. Quisque mattis at lorem ac imperdiet. In tempus pharetra 
+                        dapibus. Nunc non augue lectus. In hac habitasse platea dictumst. Quisque nec velit ut 
+                        lectus finibus efficitur. Cras eget velit pretium odio ullamcorper pretium ut sed est. 
+                        Curabitur vel porttitor tortor. Mauris est sem, tincidunt ut dictum eget, ornare id enim. 
+                        Pellentesque vitae turpis vel leo efficitur mattis eget et nunc." />
+
+                </Border>
+            </StackPanel>
+
+        </Border>
+        <Border Grid.Row="1"
+            BorderBrush="Transparent" Background="#109DB9" BorderThickness="2" CornerRadius="12" Padding="5" Width="100" HorizontalAlignment="Center">
+            <Border.Effect>
+                <DropShadowEffect ShadowDepth="5"
+                      Direction="270"
+                      Color="#000000" 
+                      BlurRadius="10"
+                      Opacity="0.2"/>
+            </Border.Effect>
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button  Style="{StaticResource buttonScreenTwo}" Content="Enter" 
+                             HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+            </Grid>
+        </Border>
+        <Border Grid.Row="2"
+            BorderBrush="Transparent" Background="#109DB9" BorderThickness="4" CornerRadius="12" Grid.ColumnSpan="2">
+            <Border.Effect>
+                <DropShadowEffect ShadowDepth="5"
+                      Direction="270"
+                      Color="#000000" 
+                      BlurRadius="10"
+                      Opacity="0.2"/>
+            </Border.Effect>
+            <WrapPanel Margin="0,10" HorizontalAlignment="Center">
+
+
+                <Button Style="{StaticResource buttonScreenTwo}" Content="𓂁𓂄" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+                <Button Style="{StaticResource buttonScreenTwo}" Content="✔" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+                <Button Style="{StaticResource buttonScreenTwo}" Content="✘" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+                <Button Style="{StaticResource buttonScreenTwo}" Content="⌂" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+
+            </WrapPanel>
+        </Border>
+
+
+    </Grid>
+
+</Window>
+    
+
+  
+
+
