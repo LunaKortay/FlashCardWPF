@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the difference between 'ref' and 'out' in C#?",
+    "answer": "'ref' requires that the variable be initialized before being passed, 'out' does not require initialization but must be assigned a value inside the method."
+  },
+  {
+    "question": "What is boxing and unboxing in C#?",
+    "answer": "Boxing is converting a value type to an object. Unboxing is extracting the value type from the object. Both can cause performance overhead."
+  },
+  {
+    "question": "What are async and await in C#?",
+    "answer": "They are used for asynchronous programming. 'async' marks a method as asynchronous, and 'await' waits for the task to complete without blocking the thread."
+  },
+  {
+    "question": "What is a delegate in C#?",
+    "answer": "A delegate is a type that references a method. It's used for callbacks and implementing event handling."
+  },
+  {
+    "question": "What is the difference between an interface and an abstract class?",
+    "answer": "Interfaces define a contract with no implementation. Abstract classes can provide both abstract methods and concrete implementations."
+  },
+  {
+    "question": "What is encapsulation?",
+    "answer": "Encapsulation is the bundling of data and methods that operate on that data within one unit, and restricting direct access to some components."
+  },
+  {
+    "question": "What is LINQ?",
+    "answer": "Language Integrated Query (LINQ) is a set of features that adds query capabilities to C# with syntax similar to SQL."
+  },
+  {
+    "question": "What is the purpose of the 'using' statement?",
+    "answer": "The 'using' statement ensures that IDisposable objects are properly disposed of after use."
+  },
+  {
+    "question": "What is the difference between '==' and '.Equals()'?",
+    "answer": "'==' compares references for objects and values for primitives. '.Equals()' can be overridden to provide value-based comparison."
+  },
+  {
+    "question": "What is the difference between a value type and a reference type?",
+    "answer": "Value types store data directly and are stored on the stack. Reference types store references to data and are stored on the heap."
+  }
+]
