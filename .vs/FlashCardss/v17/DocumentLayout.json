@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Everything\\VsApps\\FlashCardss\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08241CD3-2A91-4257-ABAD-48A0250E55B5}|FlashCardss\\FlashCardss.csproj|c:\\users\\user\\desktop\\everything\\vsapps\\flashcardss\\flashcardss\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08241CD3-2A91-4257-ABAD-48A0250E55B5}|FlashCardss\\FlashCardss.csproj|solutionrelative:flashcardss\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08241CD3-2A91-4257-ABAD-48A0250E55B5}|FlashCardss\\FlashCardss.csproj|c:\\users\\user\\desktop\\everything\\vsapps\\flashcardss\\flashcardss\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{08241CD3-2A91-4257-ABAD-48A0250E55B5}|FlashCardss\\FlashCardss.csproj|solutionrelative:flashcardss\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08241CD3-2A91-4257-ABAD-48A0250E55B5}|FlashCardss\\FlashCardss.csproj|c:\\users\\user\\desktop\\everything\\vsapps\\flashcardss\\flashcardss\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08241CD3-2A91-4257-ABAD-48A0250E55B5}|FlashCardss\\FlashCardss.csproj|solutionrelative:flashcardss\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08241CD3-2A91-4257-ABAD-48A0250E55B5}|FlashCardss\\FlashCardss.csproj|c:\\users\\user\\desktop\\everything\\vsapps\\flashcardss\\flashcardss\\data\\packs\\csharpqa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08241CD3-2A91-4257-ABAD-48A0250E55B5}|FlashCardss\\FlashCardss.csproj|solutionrelative:flashcardss\\data\\packs\\csharpqa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "csharpqa.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Everything\\VsApps\\FlashCardss\\FlashCardss\\Data\\Packs\\csharpqa.json",
+              "RelativeDocumentMoniker": "FlashCardss\\Data\\Packs\\csharpqa.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Everything\\VsApps\\FlashCardss\\FlashCardss\\Data\\Packs\\csharpqa.json",
+              "RelativeToolTip": "FlashCardss\\Data\\Packs\\csharpqa.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T10:24:06.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Everything\\VsApps\\FlashCardss\\FlashCardss\\MainWindow.xaml",
               "RelativeDocumentMoniker": "FlashCardss\\MainWindow.xaml",
@@ -34,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Everything\\VsApps\\FlashCardss\\FlashCardss\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "FlashCardss\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\Everything\\VsApps\\FlashCardss\\FlashCardss\\MainWindow.xaml.cs",
               "RelativeToolTip": "FlashCardss\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGcAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T08:39:00.347Z",
               "EditorCaption": ""

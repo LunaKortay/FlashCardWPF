@@ -8,7 +8,7 @@
         Title="MainWindow" SizeToContent="Height" Width="800" Background="LightCyan">
     <Window.Resources>
         <Style x:Key="buttonScreenTwo" TargetType="Button">
-            <Setter Property="Background" Value="#4A90E2 "/>
+            <Setter Property="Background" Value="#deb841 "/>
             <Setter Property="Foreground" Value="#111827"/>
             <Setter Property="BorderBrush" Value="#FFC8CCD2"/>
             <Setter Property="FontFamily" Value="Verdana"/>
@@ -16,18 +16,6 @@
             <Setter Property="Width" Value="80"/>
             <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Margin" Value="5,0,0,0"/>
-            <Setter Property="Effect">
-                <Setter.Value>
-                    <DropShadowEffect 
-                        ShadowDepth="5" 
-                        Direction="270"
-                        Color="#0a8ea9"
-                        BlurRadius="5"
-                        Opacity="0.9"/>
-
-                </Setter.Value>
-
-            </Setter>
 
 
 
@@ -45,7 +33,7 @@
 
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#2563EB"/>
+                    <Setter Property="Background" Value="#E55934"/>
                 </Trigger>
                 <Trigger Property="IsPressed" Value="True">
                     <Setter Property="Background" Value="#FF22262F"/>
@@ -68,7 +56,7 @@
 
         <Border Grid.Row="0"
             BorderBrush="Transparent" 
-            Background="#109DB9"
+            Background="#37323e"
             BorderThickness="2" 
             Margin="0,3,0,3"
             CornerRadius="12" Grid.ColumnSpan="2">
@@ -89,8 +77,7 @@
                     <Border.BorderBrush>
                         <VisualBrush Stretch="Fill">
                             <VisualBrush.Visual>
-                                <Rectangle HorizontalAlignment="Left" 
-                                           Height="100" 
+                                <Rectangle HorizontalAlignment="Left" Height="100" 
                                            Stroke="#047857" VerticalAlignment="Top" 
                                            Width="768"
                                            StrokeThickness="5" StrokeDashArray="4 1" 
@@ -99,6 +86,7 @@
                         </VisualBrush>
                     </Border.BorderBrush>
                     <TextBlock 
+                        x:Name="questionBlock"
                         Margin="5,0,0,0"
                         HorizontalAlignment="Center" 
                         VerticalAlignment="Center" 
@@ -137,6 +125,8 @@
                         </VisualBrush>
                     </Border.BorderBrush>
                     <TextBlock 
+                        x:Name="answerBlock"
+                        Visibility="Hidden"
                         Margin="5,0,0,0"
                         HorizontalAlignment="Center" 
                         VerticalAlignment="Center" 
@@ -159,7 +149,7 @@
 
         </Border>
         <Border Grid.Row="1"
-            BorderBrush="Transparent" Background="#109DB9" BorderThickness="2" CornerRadius="12" Padding="5" Width="100" HorizontalAlignment="Center">
+            BorderBrush="Transparent" Background="#37323e" BorderThickness="2" CornerRadius="12" Padding="5" Width="100" HorizontalAlignment="Center">
             <Border.Effect>
                 <DropShadowEffect ShadowDepth="5"
                       Direction="270"
@@ -168,12 +158,12 @@
                       Opacity="0.2"/>
             </Border.Effect>
             <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Button  Style="{StaticResource buttonScreenTwo}" Content="Enter" 
-                             HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+                <Button x:Name="enterbutton" Click="enterbutton_Click" Style="{StaticResource buttonScreenTwo}" Content="Enter" 
+                             HorizontalAlignment="Left"  VerticalAlignment="Center" Margin="0"/>
             </Grid>
         </Border>
-        <Border Grid.Row="2"
-            BorderBrush="Transparent" Background="#109DB9" BorderThickness="4" CornerRadius="12" Grid.ColumnSpan="2">
+        <Border x:Name="homebutton" Grid.Row="2"
+            BorderBrush="Transparent" Background="#37323e" BorderThickness="4" CornerRadius="12" Grid.ColumnSpan="2">
             <Border.Effect>
                 <DropShadowEffect ShadowDepth="5"
                       Direction="270"
@@ -184,10 +174,10 @@
             <WrapPanel Margin="0,10" HorizontalAlignment="Center">
 
 
-                <Button Style="{StaticResource buttonScreenTwo}" Content="𓂁𓂄" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
-                <Button Style="{StaticResource buttonScreenTwo}" Content="✔" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
-                <Button Style="{StaticResource buttonScreenTwo}" Content="✘" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
-                <Button Style="{StaticResource buttonScreenTwo}" Content="⌂" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+                <Button x:Name="revealbutton" Click="revealbutton_Click" Style="{StaticResource buttonScreenTwo}" Content="Reveal/Hide" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+                <Button x:Name="correctbutton" Click="correctbutton_Click" Style="{StaticResource buttonScreenTwo}" Content="✔" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+                <Button x:Name="wrongbutton" Click="wrongbutton_Click" Style="{StaticResource buttonScreenTwo}" Content="✘" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+                <Button x:Name="homebutton1" Click="homebutton_Click" Style="{StaticResource buttonScreenTwo}" Content="Home" HorizontalAlignment="Left"  VerticalAlignment="Top" />
 
             </WrapPanel>
         </Border>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlashCardss")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bce9d94c52c24de6f63d69e4202269addea1f503")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd46ae1b44293175f1c5cad21303bbd574d9e445")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlashCardss")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlashCardss")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

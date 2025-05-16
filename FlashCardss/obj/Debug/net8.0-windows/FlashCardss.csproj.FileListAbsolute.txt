@@ -13,8 +13,14 @@ C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0
 C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0-windows\FlashCardss.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0-windows\FlashCardss.AssemblyInfo.cs
 C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0-windows\FlashCardss.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0-windows\FlashCardss.sourcelink.json
 C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0-windows\FlashCardss.dll
 C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0-windows\refint\FlashCardss.dll
 C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0-windows\FlashCardss.pdb
 C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0-windows\FlashCardss.genruntimeconfig.cache
 C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0-windows\ref\FlashCardss.dll
+C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0-windows\FlashCardss.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0-windows\FlashCar.0309D684.Up2Date
+C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\bin\Debug\net8.0-windows\Data\Packs\csharpqa.json
+C:\Users\user\Desktop\Everything\VsApps\FlashCardss\FlashCardss\obj\Debug\net8.0-windows\FlashCardss_Content.g.cs

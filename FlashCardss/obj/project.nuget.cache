@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UzlezmRcnNCf/vc8wumT34JuPLgqHL+1FZs2xmzusUS4VbAU9azcHVvEoTwawp7Y7pw2+BebFgf71c5qL4mXSw==",
+  "dgSpecHash": "9WJ36/wugEU+lVv2cbwgYVyZd49qjFTfmL8Gz2/db1m9U7kqNo9/54voMLEsyD7qEc5eu8DAB7+/LcN8XfQe5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\Everything\\VsApps\\FlashCardss\\FlashCardss\\FlashCardss.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
